@@ -1,0 +1,26 @@
+    <section class="section__films"> 
+        <ul class="section__ul">
+            <li *ngFor= "let film of filmList" class="section__li">
+            <h3>#{{film.id}} - {{film.title}}</h3>
+            <!-- <img src="{{film.image}}" alt="{{film.title}}" class="section__img"> -->
+            <h4>{{film.direction}}:{{film.year}}</h4>
+            <div>
+                <video controls autoplay muted looped  id="videoRandom">
+                    <source src="{{film.video}}" type="video/mp4">
+                </video>
+             </div>
+            <button routerLink="/films/{{film.id}}">INFO</button>
+        </ul>
+
+
+
+
+
+    </section>
+    
+
+
+
+
+
+

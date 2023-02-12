@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.section__ul{
+    gap: 1em;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__li{
+    list-style: none;
+    width: calc(30% - 1em);
+    // position: relative;
+    
+}
+.section__img{
+  width: 70%;
+ 
+}
+#videoRandom{
+    width: 80%;
+     
+
+}
+button{
+    border-radius: 25%;
+    color:rgb(28, 27, 27)
+}

@@ -1,0 +1,13 @@
+<div class="film">
+
+<h4>{{film?.title}}</h4>
+ <img src="{{film?.image}}" alt="{{film.title}}" class="film__img"> 
+<!-- <div> -->
+    <!-- <video controls autoplay looped id="videoRandom"> -->
+        <!-- <source src="{{film?.video}}" type="video/mp4"> -->
+    <!-- </video> -->
+<!-- </div> -->
+<p>{{film?.direction}}: {{film?.year}}</p>
+<button routerLink="/">Back</button>
+<button (click)="deleteFilm()">Delete</button>
+</div>

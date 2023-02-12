@@ -1,0 +1,91 @@
+{
+  "Films": [
+    {
+      "id": 1,
+      "video": "./assets/ambulante.mp4",
+      "title": "El Castillo Ambulante",
+      "image": "./assets/castle.jpeg",
+      "direction": "Hayao Miyazaki",
+      "year": 2004
+    },
+    {
+      "id": 2,
+      "video": "./assets/totoro.mp4",
+      "title": "Mi Vecino Totoro",
+      "image": "./assets/totoro.webp",
+      "direction": "Hayao Miyazaki",
+      "year": 1988
+    },
+    {
+      "id": 3,
+      "video": "",
+      "title": "El Viaje de Chihiro",
+      "image": "./assets/chi.jpeg",
+      "direction": "Hayao Miyazaki",
+      "year": 2001
+    },
+    {
+      "id": 4,
+      "video": "",
+      "title": "Perfect Blue",
+      "image": "./assets/perfect.jpeg",
+      "direction": "Satoshi Kon",
+      "year": 1997
+    },
+    {
+      "id": 5,
+      "video": "",
+      "title": "La Princesa Mononoke",
+      "image": "./assets/mono.jpeg",
+      "direction": "Hayao Miyazaki",
+      "year": 1997
+    },
+    {
+      "id": 6,
+      "video": "",
+      "title": "El castillo en el cielo",
+      "image": "./assets/castillo.jpeg",
+      "direction": "Hayao Miyazaki",
+      "year": 1986
+    },
+    {
+      "id": 7,
+      "video": "",
+      "title": "Hogar a la Deriva",
+      "image": "./assets/hogar.jpeg",
+      "direction": "Hiroyasu Ishida",
+      "year": 2022
+    },
+    {
+      "id": 8,
+      "video": "",
+      "title": "La Tumba de las Luciérnagas",
+      "image": "./assets/tumba.jpeg",
+      "direction": "Isao Takahata",
+      "year": 1988
+    },
+    {
+      "id": 9,
+      "video": "",
+      "title": "Mary y la Flor de la Bruja",
+      "image": "./assets/bruja.jpeg",
+      "direction": "Hiromasa Yonebayashi",
+      "year": 2017
+    },
+    {
+      "id": 10,
+      "video": "./assets/princesmon.mp4",
+      "title": "Cuentos de Terramar",
+      "image": "./assets/terramar.jpeg",
+      "direction": "Goro Miyazaki",
+      "year": 2006
+    },
+    {
+      "title": "Belle",
+      "image": "./assets/belle.jpeg",
+      "direction": "Mamoru Hosoda",
+      "year": "2021",
+      "id": 11
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<form [formGroup]="filmForm" (ngSubmit)="onSubmit()">
+    <input formControlName="title" placeholder="title">
+    <input formControlName="image" placeholder="image">
+    <input formControlName="direction" placeholder="direction">
+    <input formControlName="year" placeholder="year">
+
+    <button type="submit">Submit</button>
+
+</form>
